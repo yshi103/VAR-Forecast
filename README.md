@@ -21,3 +21,10 @@ The model produces multi-step forecasts and interpretable impulse response funct
 - Python 3
 - statsmodels
 - pandas, matplotlib, seaborn
+
+##  Contact
+
+- Yuqi Shi ([yshi103@alumni.jh.edu](mailto\:yshi103@alumni.jh.edu))
+- [LinkedIn](https://www.linkedin.com/in/yuqi-shi-3728a5200/)
+
+---
