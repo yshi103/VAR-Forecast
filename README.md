@@ -1,30 +1,36 @@
-# VAR Forecast: Macroeconomic Time Series Modeling
+# 📉 Macroeconomic Forecasting with VAR Model
 
-This small project demonstrates the use of a Vector Autoregression (VAR) model to analyze and forecast interrelated macroeconomic time series variables.
-The goal is to simulate the forecasting behavior of central banks or financial institutions when faced with multiple interacting economic indicators (e.g., inflation, GDP, interest rates).
+This project applies a Vector Autoregression (VAR) model to analyze the dynamic interactions among key macroeconomic indicators and forecast their future trajectories. The variables include GDP, inflation (CPI), and the federal funds rate. The goal is to understand the transmission of shocks and provide interpretable insights for policy analysis.
 
-## Model
+## 🔍 Overview
 
-The VAR model captures the linear interdependencies among multiple time series. Key steps include:
-- Data preprocessing and visualization
-- Stationarity testing (ADF)
-- Lag length selection (AIC, BIC)
-- Model fitting and diagnostics
-- Forecasting and impulse response analysis
+- Data preprocessing and stationarity testing using the Augmented Dickey-Fuller (ADF) test  
+- Optimal lag selection based on AIC/BIC  
+- Estimation of a multivariate VAR model using `statsmodels`  
+- Multi-step forecasting and forecast uncertainty bands  
+- Impulse Response Functions (IRFs) to analyze the effects of monetary shocks
 
-## 📈 Results
+## 🧠 Key Insights
 
-The model produces multi-step forecasts and interpretable impulse response functions, illustrating how shocks to one variable propagate through the system.
+- A positive interest rate shock leads to a delayed decline in GDP and inflation  
+- Forecasts show widening confidence intervals over longer horizons  
+- The model aligns with standard macroeconomic intuition regarding policy transmission lags
 
-## 🔧 Tools
+## 📁 Files
 
-- Python 3
-- statsmodels
-- pandas, matplotlib, seaborn
+- `VAR_Forecast.ipynb` — Python notebook containing all code and results  
+- `VAR_Forecast_Report.pdf` — Summary write-up with modeling steps, findings, and policy interpretation  
+- `README.md` — This file
 
-##  Contact
+## 📌 Tools Used
 
-- Yuqi Shi ([yshi103@alumni.jh.edu](mailto\:yshi103@alumni.jh.edu))
-- [LinkedIn](https://www.linkedin.com/in/yuqi-shi-3728a5200/)
+- Python 3  
+- pandas, matplotlib, seaborn  
+- statsmodels (for VAR estimation)  
+- numpy
 
----
+## ✍️ Contact
+
+**Yuqi Shi**  
+Email: yshi103@alumni.jh.edu
+
